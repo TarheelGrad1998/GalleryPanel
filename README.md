@@ -1,3 +1,6 @@
+# This Panel has been depricated and will not be supported in some future version of Home Assistant.  
+# Please use [the Gallery Card](https://github.com/TarheelGrad1998/GalleryCard) instead, which provides the same functionality with more flexibility.
+
 # Gallery Panel
 
 Custom panel for Home Assistant's UI LoveLace which will display images and videos in the style of a gallery.
