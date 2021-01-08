@@ -20,11 +20,11 @@ Files that will appear in the gallery must be in the WWW folder, ideally in a su
 5. Add your images/videos to this folder
 6. Add the files sensor to your configuration.yaml file
     ```yaml
-    - sensor
-        - platform: files
-          folder: /config/www/images
-          name: gallery_images
-          sort: date
+    sensor:
+      - platform: files
+        folder: /config/www/images
+        name: gallery_images
+        sort: date
     ```
 7. Restart Home Assistant
 8. Check the sensor.gallery_images entity to see if the `fileList` attribute lists your files
